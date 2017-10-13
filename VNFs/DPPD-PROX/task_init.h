@@ -55,7 +55,7 @@ struct qos_cfg {
 	struct rte_sched_pipe_params pipe_params[1];
 };
 
-enum task_mode {NOT_SET, MASTER, QINQ_DECAP4, QINQ_DECAP6,
+enum task_mode {NOT_SET, MASTER, QINQ_DECAP4, QINQ_DECAP6, ESP_ENC, ESP_DEC,
 		QINQ_ENCAP4, QINQ_ENCAP6, GRE_DECAP, GRE_ENCAP,CGNAT,
 };
 
